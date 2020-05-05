@@ -1,6 +1,7 @@
 # IBM Quantum Challenge 2020
 
-Source code for my solutions to the [IBM Quantum Challenge](https://github.com/qiskit-community/may4_challenge_exercises)
+Source code for my solutions to the [IBM Quantum Challenge](https://github.com/qiskit-community/may4_challenge_exercises).
+This entry was among the first 8% of submissions and attained 10th place globally within the first 24 hours.
 
 ## Exercise 1: Intro
 Basic operations and Quantum Circuit manipulation using the qiskit library.
@@ -14,4 +15,5 @@ A simulation of the first proposed quantum cryptography protocol (bb84) is imple
 
 ## Exercise 4: Circuit Decomposition
 Decomposition of a Unitary matrix into a circuit of `U3` and `CX` gates within a small error margin. 
+With some insight, a hadamard transform is performed to simplify the compiled circuit.
 Additional constraints are encouraged to minimize gate usage and error propagation on NISQ systems.
